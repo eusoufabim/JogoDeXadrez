@@ -25,10 +25,8 @@ public class PartidaDeXadrez {
 	
 	private void iniciarPartida() {
 		tabuleiro.colocarPeca(new Torre(tabuleiro, Cor.BRANCO),new Posicao(0,0));
-		tabuleiro.colocarPeca(new Torre(tabuleiro, Cor.BRANCO),new Posicao(0,7));
 		tabuleiro.colocarPeca(new Rei(tabuleiro, Cor.BRANCO),new Posicao(0,4));
-		
-		tabuleiro.colocarPeca(new Torre(tabuleiro, Cor.PRETO),new Posicao(7,0));
+
 		tabuleiro.colocarPeca(new Torre(tabuleiro, Cor.PRETO),new Posicao(7,7));
 		tabuleiro.colocarPeca(new Rei(tabuleiro, Cor.PRETO),new Posicao(7,4));
 	}
