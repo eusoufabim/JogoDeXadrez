@@ -1,14 +1,14 @@
 package aplicacao;
 
-import tabuleiro.Posicao;
-import tabuleiro.Tabuleiro;
+import xadrex.PartidaDeXadrez;
 
 public class Programa {
 
 	public static void main(String[] args) {
 		
-		Tabuleiro t = new Tabuleiro(8, 8);
-
+		PartidaDeXadrez partidadexadrez = new PartidaDeXadrez();
+		UI.imprimirTabuleiro(partidadexadrez.getPecas());
+	
 	}
 
 }
