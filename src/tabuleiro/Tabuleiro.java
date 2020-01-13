@@ -36,4 +36,9 @@ public class Tabuleiro {
 		return pecas[pos.getLinha()][pos.getColuna()];
 	}
 	
+	public void colocarPeca (Peca peca, Posicao posicao) {
+		pecas[posicao.getLinha()][posicao.getColuna()] = peca;
+		peca.posicao = posicao;
+	}
+	
 }
